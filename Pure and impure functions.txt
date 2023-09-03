@@ -1,0 +1,16 @@
+=>When declare a component as a function 
+or a class it must never modify its own 
+properties such functions are called
+pure functions ( all redecuer functions in REDUX are pure)
+
+=>All React components must act like pure 
+functions with respect to their props.
+
+=>State allows React components to change 
+their output over time in response to user 
+actions, network responses, and anything else,
+ without violating this rule.
+
+function Sum(a,b) {
+ 	return a+b
+     }
